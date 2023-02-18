@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point a program that printf functions
- * Return: Always (0)
+ * main - A rogram that prints f function
+ * Return: Always 0 (success)
  */
 int main(void)
 {
