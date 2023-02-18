@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main - Entry point
- *Descripton: A program that prints a line with the puts function
- *return: Always 0 (succsess)
+ * main - Entry point
+ * Descripton: A program that prints a line with the puts function
+ * Return: Always 0 (succsess)
  */
 int main(void)
 {
