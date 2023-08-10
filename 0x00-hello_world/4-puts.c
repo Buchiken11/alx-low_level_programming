@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * main-Entry point A programm that prints a string to the standard output
- * Description: A programm that prints a string to the standard out
+ * main-Entry A programm that prints a string to the standard output
+ * Description: 
  * Return:Always Success(0)
  */
 int main(void)
