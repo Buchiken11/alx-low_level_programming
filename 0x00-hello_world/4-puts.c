@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main-Entry A programm that prints a string to the standard output with puts function
+/**
+ * main-Entry point A programm that prints with puts function
  *
  * Return:Always Success(0)
  */
