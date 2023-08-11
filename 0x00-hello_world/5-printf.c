@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point A function that prints with printf to the stanfard outputs
+ * main - Entry point A function that prints with printf to the stanfard
  *
  * Return: Always 0 (Success)
  */
