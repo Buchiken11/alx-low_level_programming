@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C- programming repository, learning C
+Learning gcc compilation in c programming
