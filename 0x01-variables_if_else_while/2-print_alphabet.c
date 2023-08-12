@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main-Entry point A function that prints alphabe
+ * main-Entry point A function that prints alphabet
  *
  * Return: Always (0) Success
  */
@@ -12,9 +12,7 @@ int main(void)
 	{
 		putchar(alpha);
 		alpha++;
-		{
-		putchar('\n');
-		}
 	}
+		putchar('\n');
 	return (0);
 }
