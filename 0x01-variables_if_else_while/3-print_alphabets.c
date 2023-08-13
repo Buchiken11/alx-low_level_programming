@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * main-Entry point A function that prints alpabet in lower an upper case with putchar
+ * main-Entry point A function that prints alpabet in lower an upper case
  *
  * Return: Always 0. (Success)
  */
 int main(void)
 {
+
 	char alpha;
 	char upper;
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
