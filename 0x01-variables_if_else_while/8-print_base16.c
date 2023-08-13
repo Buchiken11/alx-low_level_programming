@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-	char num, alpha;
+	char num;
 
 	for (num = 48; num <= 57; num++)
 	{
-		for (alpha = 97; alpha <= 103; alpha++)
+		for (num = 97; num <= 103; num++)
 		putchar(num);
-		putchar(alpha);
+		putchar(num);
 	}
+		putchar('\n');
 		return (0);
 }
 
