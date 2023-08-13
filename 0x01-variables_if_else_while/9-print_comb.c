@@ -10,7 +10,7 @@ int main(void)
 
 	for (f = 48; f <= 57; f++)
 	{
-	if (f != 57)
+	if (f != <=57)
 	{
 		putchar(f);
 		putchar(',');
