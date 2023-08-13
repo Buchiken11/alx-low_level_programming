@@ -10,7 +10,7 @@ int main(void)
 
 	for (num = 48; num <= 57; num++)
 	{
-		for (alpha = 'a'; alpha <= 'f'; alpha++)
+		for (alpha = 97; alpha <= 103; alpha++)
 		putchar(num);
 		putchar(alpha);
 	}
