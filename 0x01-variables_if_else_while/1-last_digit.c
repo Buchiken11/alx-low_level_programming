@@ -5,14 +5,14 @@
 
 /* betty style doc for function main goes there */
 /**
- * main-Entry point A function that prints the last digit of n
+ * main-Entry point A function that prints the last digit
  *
  * Return: Always 0. (Success)
  */
 int main(void)
 {
 	int n;
-	int p;
+	int ip;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -20,7 +20,7 @@ int main(void)
 	p = n % 10;
 	if (p > 5)
 		printf("Last digit of %d and is %d and is greater than 5\n", n, p);
-	else if (p <6 && p != 0)
+	else if (p < 6 && p != 0)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, p);
 	else
 		printf("Last digit of %d is %d and is 0\n", n, p);
