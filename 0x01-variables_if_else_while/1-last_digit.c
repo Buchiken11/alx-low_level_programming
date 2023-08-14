@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n;
-	int ip;
+	int p;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
