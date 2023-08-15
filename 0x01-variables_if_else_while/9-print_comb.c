@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main-Entry point A function that prints numbes, comma and space
+ * main-Entry point A function that prints numbers, comma and space
  *
  * Return: Always 0. (Success)
  */
