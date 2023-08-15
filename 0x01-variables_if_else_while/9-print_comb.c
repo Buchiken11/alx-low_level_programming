@@ -10,8 +10,8 @@ int main(void)
 
 	for (f = 48; f <= 57; f++)
 	{
-		if (f != 58)
 		putchar(f);
+		if (f != 57)
 		putchar(44);
 		putchar(' ');
 	}
