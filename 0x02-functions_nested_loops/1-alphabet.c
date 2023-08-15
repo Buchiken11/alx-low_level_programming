@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main-Entry point A function that prints alpabet
+ * main-Entry point A function that prints alpabet with void print_alphabet(void)
  *
  * Return: 0
  */
