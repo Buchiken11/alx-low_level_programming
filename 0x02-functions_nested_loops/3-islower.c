@@ -1,6 +1,6 @@
 #include "main.h"
-/**i
- * _islower-function prints lowecase alphabet
+/**
+ * _islower-prints lowecase alphabet
  *
  * Return: 1 on success
  */
