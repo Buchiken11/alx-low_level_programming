@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add-function adds two numbers and returns the result
+ * add-function adds two numbers, num1 and num2 and returns the result
  *
  * Return: Results of the two integers
  */
