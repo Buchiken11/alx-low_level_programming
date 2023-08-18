@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * print_square-function prints hash in 2x2, 10x10
- * @n
- *
+ * @size: size integers
+ * @a: integer a
+ * @b: integer b
  * Return:0.
  */
 void print_square(int size)
@@ -15,6 +16,7 @@ void print_square(int size)
 	{
 		int a;
 		int b;
+
 		for (a = 0; a < size; a++)
 		{
 			for (b = 0; b < size; b++)
