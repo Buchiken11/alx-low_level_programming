@@ -9,7 +9,7 @@ void print_rev(char *s)
 {
 	int inc = 0;
 	int or;
-	
+
 	while (*s != '\0')
 	{
 		inc++;
