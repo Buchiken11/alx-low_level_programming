@@ -6,7 +6,6 @@
  * and initializes it to c.
  * @size: size of unsigned itegers
  * @c: variable c
- * @ptrf: pointer to be returned
  * Return: ptrf
  */
 
@@ -20,7 +19,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	ptrf = malloc(size * sizeof (char));
+	ptrf = malloc(size * sizeof(char));
 	if (size == 0)
 	{
 		return (NULL);
