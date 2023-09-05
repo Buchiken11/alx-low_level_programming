@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * create_array-fuction creates an array of characters 
+ * create_array-fuction creates an array of characters
  * and initializes it to c.
  * @size: size of unsigned itegers
  * @sizema: size of array member
@@ -15,6 +15,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *ptrf;
 	unsigned int sizema;
+
 	if (size == 0)
 	{
 		return (NULL);
