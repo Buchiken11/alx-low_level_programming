@@ -17,6 +17,11 @@ char *create_array(unsigned int size, char c)
 	unsigned int sizema;
 
 	ptrf = malloc(size * sizeof (char));
+	if (size == 0)
+	{
+		return (NULL);
+	}
+
 	for (sizema = 0; sizema < size; sizema++)
 	{
 		ptrf[sizema] = c;
