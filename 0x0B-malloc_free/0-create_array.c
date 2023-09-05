@@ -15,6 +15,10 @@ char *create_array(unsigned int size, char c)
 {
 	char *ptrf;
 	unsigned int sizema;
+	if (size == 0)
+	{
+		return (NULL);
+	}
 
 	ptrf = malloc(size * sizeof (char));
 	if (size == 0)
