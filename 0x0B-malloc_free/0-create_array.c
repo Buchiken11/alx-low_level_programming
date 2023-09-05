@@ -5,10 +5,9 @@
  * create_array-fuction creates an array of characters
  * and initializes it to c.
  * @size: size of unsigned itegers
- * @sizema: size of array member
- * @c: variable
+ * @c: variable c
  * @ptrf: pointer to be returned
- * Return 0.
+ * Return: ptrf
  */
 
 char *create_array(unsigned int size, char c)
