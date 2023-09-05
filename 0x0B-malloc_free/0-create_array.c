@@ -7,7 +7,7 @@
  * @size: size of unsigned itegers
  * @sizema: size of array member
  * @c: variable
- * ptrf: pointer to be returned
+ * @ptrf: pointer to be returned
  * Return 0.
  */
 
@@ -22,5 +22,4 @@ char *create_array(unsigned int size, char c)
 		ptrf[sizema] = c;
 	}
 	return (ptrf);
-	free (ptrf);
 }
