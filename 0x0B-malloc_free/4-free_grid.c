@@ -9,25 +9,13 @@
  * Description: frees memory of grid
  * Return: nothing
  */
-
 void free_grid(int **grid, int height)
-
 {
+	int p;
 
-        int p;
-
-
-        for (p = 0; p < height; p++)
-
-        {
-
-                free(grid[p]);
-
-        }
-
-        free(grid);
-
+	for (p = 0; p < height; p++)
+	{
+		free(grid[p]);
+	}
+	free(grid);
 }
-
-
-
