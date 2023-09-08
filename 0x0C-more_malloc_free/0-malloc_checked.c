@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked-function creates a dynamic memory Allocation
+ * *malloc_checked-function creates a dynamic memory Allocation
  * @b: b is the size of parameter
  * Return: void pointer ptrma.
  */
