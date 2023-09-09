@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdlib.h>
+
 /**
  * *string_nconcat-function concatenates two string
  * @n: number of length
