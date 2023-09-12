@@ -6,7 +6,7 @@
  * Return: Always 0 (SUCCESS)
  */
 
-int main (void)
+int main(void)
 {
 	char *program_name;
 
