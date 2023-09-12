@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main-fuction prints the name of file
+ * main-function prints the name of file
  *
- * Return 0.
+ * Return 0 (SUCCESS)
  */
 
 int main (void)
@@ -17,4 +17,3 @@ int main (void)
 	printf("\n");
 	return (0);
 }
-
