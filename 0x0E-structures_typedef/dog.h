@@ -6,7 +6,7 @@
  * @name: first element name
  * @age: second element dog's age
  * @owner: owner's information
- * Return: Always 0 (SUCCESS)
+ * Description: Always 0 (SUCCESS)
  */
 
 struct dog
@@ -28,4 +28,4 @@ struct dog
 	char *_strcpy(char *dest, char *src);
 	int _strlen(char *s);
 
-#endif
+	#endif
