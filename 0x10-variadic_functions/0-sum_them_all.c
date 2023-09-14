@@ -2,7 +2,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - function adds the arguments together
+ * sum_them_all-function returns the sum of all it's parameter
  * @n: first agument
  * @...: number of arguments
  * Return: Always 0 (SUCCESS)
