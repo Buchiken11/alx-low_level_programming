@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers prints numbers of the entered arguments
+ * print_numbers-function prints numbers of the entered arguments
  * @separator: the string to be printed between numbers
  * @n: number of integers passed to the function
  * @...: number of expected arguments
