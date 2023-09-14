@@ -4,6 +4,7 @@
 /**
  * sum_them_all-function adds the arguments together
  * @n: first agument
+ * @...: number of arguments
  * Return: Always 0 (SUCCESS)
  */
 
