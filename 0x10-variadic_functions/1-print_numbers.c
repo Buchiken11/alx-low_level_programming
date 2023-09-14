@@ -6,6 +6,7 @@
  * print_numbers-function prints numbers of the entered arguments
  * @seperator: the string to be printed between numbers
  * @n: number of integers passed to the function
+ * @...: number of expected arguments
  * Return: nothing
  */
 
