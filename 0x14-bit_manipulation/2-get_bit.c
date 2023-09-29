@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_bin-function returns the value of binary at a specific
+ * get_bit-function returns the value of binary at a specific
  * index.
  * @n: this is the index number of bits
  * @index: this is the index starting feom 0
