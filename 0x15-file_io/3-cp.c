@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
 		to = open(argv[2], O_WRONLY | O_APPEND);
 
 	}
-	while (r > 0)
+	while (r > 0);
 
 	free(bu_ffer);
 	close_file(from);
