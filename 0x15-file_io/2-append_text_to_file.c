@@ -18,11 +18,10 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (filename == NULL)
 		return (-1);
-		if (text_content != NULL)
-		{
-			for (count = 0; text_content[count];)
-				count++;
-		}
+	if (text_content != NULL)
+	{
+		for (count = 0; text_content[count]; count++)
+	}
 	op_en = open(filename, O_WRONLY | O_APPEND);
 	wri_te = write(op_en, text_content, count);
 
