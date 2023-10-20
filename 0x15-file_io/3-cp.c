@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h.h"
+#include "main.h"
 
 /**
  * main-functionprogram that copies the content of a file to another file
